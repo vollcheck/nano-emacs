@@ -33,9 +33,9 @@
 
 
 
-(defcustom nano-font-family-monospaced "Roboto Mono"
+(defcustom nano-font-family-monospaced "Ubuntu Mono"
   "Name of the font-family to use for nano.
-Defaults to Roboto Mono. Customizing this might lead to conflicts
+Defaults to Ubuntu Mono. Customizing this might lead to conflicts
 if the family does not have sufficient bold/light etc faces."
   :group 'nano
   :type 'string)
@@ -48,7 +48,7 @@ Defaults to nil."
   :group 'nano
   :type 'string)
 
-(defcustom nano-font-size 14
+(defcustom nano-font-size 11
   "Default value for the font size of nano-theme in pt units.
 Note: to change this after startup, call
 \(nano-faces\) and \(nano-themes\)."

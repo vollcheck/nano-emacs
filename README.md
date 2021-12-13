@@ -70,7 +70,7 @@ is `nano-faces` that defines 6 faces that are used in other modules.
 You can customize the default font, the proportional font and the font-size.
 
 ```emacs-lisp
-(setq nano-font-family-monospaced "Roboto Mono")
+(setq nano-font-family-monospaced "Ubuntu Mono")
 ```
 
 This sets the default monospaced font. Defaults to Roboto Mono. Note that if you set this to a font without proper light or bold weights you will lose many of the key design features of nano-emacs.
@@ -82,7 +82,7 @@ This sets the default monospaced font. Defaults to Roboto Mono. Note that if you
 Set this to the name (as a string) of your favorite variable-width font to enable `variable-width-mode` and `mixed-pitch-mode`. If you have already set this somewhere else, you can use `(setq nano-font-family-proportional (face-attribute 'variable-width :family))` to use the same one.
 
 ```emacs-lisp
-(setq nano-font-size 14)
+(setq nano-font-size 11)
 ```
 
 This sets the font-size of most faces in nano-emacs.
@@ -185,13 +185,13 @@ Because of the way nano-emacs is set up, you need to set these variables *before
 - **[nano-mu4e.el](./nano-mu4e.el)**
 
   > This package setup the look and feel of mu4e.
-  
+
   ![](./images/nano-mu4e.png)
 
 - **[nano-minibuffer.el](./nano-minibuffer.el)**
 
   > Minibuffer using [mini-frame](https://github.com/muffinmad/emacs-mini-frame)
-  
+
   <div>
   <img src="./images/nano-minibuffer-light.png" width=47.5%>
   <img src="./images/nano-minibuffer-dark.png"  width=47.5%>
@@ -212,7 +212,7 @@ Because of the way nano-emacs is set up, you need to set these variables *before
   > An experimental interactive mini agenda that displays side by
   > side a mini calendar on the left and timestamped org entries on
   > the right.
-  
+
   ![](./images/nano-agenda.png)
 
 ### Related works
@@ -220,4 +220,3 @@ Because of the way nano-emacs is set up, you need to set these variables *before
 - [Bespoke theme](https://github.com/mclear-tools/bespoke-themes)
   Custom medium contrast light and dark themes inspired by nano emacs,
   elegant emacs, Nord and Solarized themes.
-  

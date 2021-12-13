@@ -298,7 +298,7 @@
       (erase-buffer)
       (set-window-margins nil 2)
       (face-remap-add-relative 'header-line
-                               `(:family "Roboto Mono"
+                               `(:family "Ubuntu Mono"
                                  :foreground ,nano-light-background
                                  :background ,nano-light-faded
                                  :weight regular
